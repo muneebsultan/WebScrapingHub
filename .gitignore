@@ -1,0 +1,19 @@
+# Ignore virtual environments
+envs/
+
+
+# Ignore cache directories
+cache/
+.cache/
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.db
+envs/
+__pycache__/
+*.pyc
+*.pyc
+*.db
+*.pdf
+*.log
+
