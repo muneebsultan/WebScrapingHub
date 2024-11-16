@@ -1,9 +1,7 @@
-# Beautiful Soup Web Scraping
+# ETL Pipeline for Scraping Data from Finviz
 
-This branch demonstrates web scraping techniques using Beautiful Soup, a powerful Python library for parsing HTML and XML documents. Here’s what I've implemented in this branch:
+This script implements a complete ETL (Extract, Transform, Load) pipeline for scraping financial data from Finviz. It performs the following steps:
 
-- Scraping specific HTML tags, including titles and meta descriptions
-- Extracting all heading tags (h1-h6), along with titles and meta descriptions
-- Extracting ALT attributes (image alternative text)
-- Counting words on a web page
-- Extracting all unique URLs from a website
+- Extract: The script scrapes tables from the Finviz website using the html_read method.
+- Transform: The scraped data is cleaned and transformed as needed (e.g., filtering columns, formatting, or aggregating).
+- Load: The transformed data is saved into a database for further analysis or processing.
